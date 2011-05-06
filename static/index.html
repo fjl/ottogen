@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ottogenerator</title>
+    <link type="text/css" rel="stylesheet" href="page.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/page.js"></script>
+  </head>
+  <body>
+    <div id="box">
+      <form id="properties">
+        <h1>Text</h1>
+        <input type="text" name="t1" value="otto"/>
+        <input type="text" name="t2" value=""/>
+        <input type="text" name="t3" value=""/>
+        <h1>Bildgröße</h1>
+        <span class="size">klein <input type="radio" name="size" value="100"/></span>
+        <span class="size">groß <input type="radio" name="size" checked value="300"/></span>
+        <span class="size">riesig <input type="radio" name="size" value="800"/></span>
+        <button type="submit">Bild erzeugen</button>
+      </form>
+
+      <div id="preview">
+        <h1>Vorschau</h1>
+        <p id="img-wrap">
+          <img id="image" src="/otto?t1=otto"/>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
