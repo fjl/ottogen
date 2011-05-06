@@ -61,4 +61,6 @@ srv.use(connect.responseTime());
 srv.use(connect.logger());
 srv.use('/otto', Otto);
 srv.use('/',     connect.static(__dirname + '/static'));
+
 srv.listen(8000);
+console.log('Running on http://localhost:8000')
