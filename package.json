@@ -1,0 +1,19 @@
+{
+  "name": "ottogen",
+  "version": "0.0.0",
+  "description": "Otto Otto Otto",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fjl/ottogen.git"
+  },
+  "author": "fjl",
+  "homepage": "https://github.com/fjl/ottogen",
+  "dependencies": {
+    "connect": "*",
+    "canvas": "*"
+  }
+}
