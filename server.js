@@ -33,7 +33,7 @@ var Otto = {
       ctx.fillStyle = Otto.t_colors[i];
       ctx.textBaseline = 'middle';
       ctx.textAlign = 'center';
-      ctx.fillText(text[i], canvas.width/2.05, y + (h * 0.4));
+      ctx.fillText(text[i], canvas.width/2.05, y + (h * 0.5));
 
       y += h;
     }
